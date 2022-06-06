@@ -58,7 +58,6 @@ main{
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     padding: 10px;
 }
 
@@ -86,12 +85,16 @@ footer{
 
 footer .scritta i{
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 footer .strumenti-left, .strumenti-center{
     display: flex;
     align-items: center;   
+}
 
+.strumenti-center .green i{
+    color: #4bc800;
 }
 
 footer .scritta{
