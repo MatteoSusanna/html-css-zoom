@@ -9,7 +9,6 @@
 header{
     height: 80px;
     background-color: black;
-    color: white;
 }
 
 header .speaker{
@@ -18,6 +17,7 @@ header .speaker{
     float: right;
     font-size: 20px;
     padding: 5px;
+    margin-left: 15px;
     border-radius: 10px;
 }
 
@@ -81,8 +81,31 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
+footer .scritta i{
+    font-size: 30px;
+}
+
+footer .strumenti-left, .strumenti-center{
+    display: flex;
+    align-items: center;   
+
+}
+
+footer .scritta{
+    text-align: center;
+    padding: 15px;
+}
+
+.strumenti-right{
+    line-height: 80px;
+    background-color: #4a4a4a;
+    color: red;
+    font-size: 20px;
+    padding-left: 30px;
+}
 
 /*fine footer*/
 
