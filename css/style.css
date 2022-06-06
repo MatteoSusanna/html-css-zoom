@@ -5,7 +5,6 @@
 }
 
 /*inizio header*/
-
 header{
     height: 80px;
     background-color: black;
@@ -34,9 +33,13 @@ header .speaker{
 
 main{
     width: 100%;
-    height: calc( 100vh - 80px - 80px);
+    height: calc( 100vh - 80px - 80px );
     background-color: black;
     overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .container{
